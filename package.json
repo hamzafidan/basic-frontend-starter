@@ -14,15 +14,6 @@
     "build:css": "npm-run-all compile:sass prefix:css compress:css",
     "build": "npm run clean && npm run build:css && parcel build src/index.html --public-url ./"
   },
-  "keywords": [
-    "autoprefixer",
-    "bootsrap",
-    "es6",
-    "parcel",
-    "sass"
-  ],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "cssnano": "^4.1.10",
@@ -32,5 +23,22 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1"
+  },
+  "author": "Hamza Fidan",
+  "keywords": [
+    "autoprefixer",
+    "bootsrap",
+    "es6",
+    "parcel",
+    "sass"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzafidan/basic-frontend-starter.git"
+  },
+  "homepage": "https://github.com/hamzafidan/basic-frontend-starter#readme",
+  "bugs": {
+    "url": "https://github.com/hamzafidan/basic-frontend-starter/issues"
   }
 }
